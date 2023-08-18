@@ -47,27 +47,6 @@
                 "notes": "Imported via Vinoshipper's GTM Container Import.\nIf you use a different GA4 Configuration tag, you may safely remove this tag, but you must update the \"Vinoshipper - Google Analytics V4 Events\" tag to point to your existing GA4 Configuration Tag.",
                 "parameter": [
                     {
-                        "type": "LIST",
-                        "key": "fieldsToSet",
-                        "list": [
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "debug_mode"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "true"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
                         "type": "BOOLEAN",
                         "key": "sendPageView",
                         "value": "true"
