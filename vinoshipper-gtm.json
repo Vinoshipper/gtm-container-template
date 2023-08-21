@@ -1,6 +1,6 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2023-08-18 19:20:56",
+    "exportTime": "2023-08-21 21:55:09",
     "containerVersion": {
         "path": "accounts/0/containers/0/versions/0",
         "accountId": "0",
@@ -37,107 +37,6 @@
                 "GTM-XXXXXXX"
             ]
         },
-        "tag": [
-            {
-                "accountId": "0",
-                "containerId": "0",
-                "tagId": "15",
-                "name": "Vinoshipper - Google Analytics V4 Configuration",
-                "type": "gaawc",
-                "notes": "Imported via Vinoshipper's GTM Container Import.\nIf you use a different GA4 Configuration tag, you may safely remove this tag, but you must update the \"Vinoshipper - Google Analytics V4 Events\" tag to point to your existing GA4 Configuration Tag.",
-                "parameter": [
-                    {
-                        "type": "BOOLEAN",
-                        "key": "sendPageView",
-                        "value": "true"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "enableSendToServerContainer",
-                        "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "measurementId",
-                        "value": "G-0000000000"
-                    }
-                ],
-                "fingerprint": "1679944557793",
-                "firingTriggerId": [
-                    "2147479573"
-                ],
-                "parentFolderId": "99",
-                "tagFiringOption": "ONCE_PER_EVENT",
-                "monitoringMetadata": {
-                    "type": "MAP"
-                },
-                "consentSettings": {
-                    "consentStatus": "NOT_SET"
-                }
-            },
-            {
-                "accountId": "0",
-                "containerId": "0",
-                "tagId": "17",
-                "name": "Vinoshipper - Google Analytics V4 Events",
-                "type": "gaawe",
-                "notes": "Imported via Vinoshipper's GTM Container Import.\nIf you use a different GA4 Configuration tag, you must update this tag and point to your existing GA4 Configuration Tag.",
-                "parameter": [
-                    {
-                        "type": "BOOLEAN",
-                        "key": "sendEcommerceData",
-                        "value": "true"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "getEcommerceDataFrom",
-                        "value": "dataLayer"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "eventName",
-                        "value": "{{Event}}"
-                    },
-                    {
-                        "type": "TAG_REFERENCE",
-                        "key": "measurementId",
-                        "value": "Vinoshipper - Google Analytics V4 Configuration"
-                    }
-                ],
-                "fingerprint": "1692386296031",
-                "firingTriggerId": [
-                    "9904",
-                    "9909",
-                    "9906",
-                    "9911",
-                    "9912",
-                    "9910",
-                    "9908",
-                    "9905",
-                    "9913",
-                    "9922",
-                    "9923",
-                    "18",
-                    "9924",
-                    "9925",
-                    "9919",
-                    "9920",
-                    "9921",
-                    "9926",
-                    "9927",
-                    "9928",
-                    "9929"
-                ],
-                "parentFolderId": "99",
-                "tagFiringOption": "ONCE_PER_EVENT",
-                "monitoringMetadata": {
-                    "type": "MAP"
-                },
-                "consentSettings": {
-                    "consentStatus": "NOT_SET"
-                }
-            }
-        ],
         "trigger": [
             {
                 "accountId": "0",
