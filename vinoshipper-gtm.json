@@ -585,6 +585,35 @@
                 "parentFolderId": "99"
             }
         ],
+        "variable": [
+            {
+                "accountId": "0",
+                "containerId": "0",
+                "variableId": "99934",
+                "name": "Ecommerce",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ecommerce"
+                    }
+                ],
+                "fingerprint": "1693353320904",
+                "parentFolderId": "99",
+                "formatValue": {}
+            }
+        ],
         "folder": [
             {
                 "accountId": "0",
